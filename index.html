@@ -2,24 +2,34 @@
 <html lang="en">
 
 <head>
-  <title>Personal Expense Tracker</title>
+    <title>Personal Expense Tracker</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A monthly expense tracker to help you stay motivated to save money.">
-  <meta name="author" content="Chanakya Esteban">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A monthly expense tracker to help you stay motivated to save money.">
+    <meta name="author" content="Chanakya Esteban">
 
-  <link rel="icon" type="image/jpg" href="..."> <!--TO BE ADDED-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="..." rel="stylesheet"> <!--TO BE ADDED-->
-  <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="..."> <!--TO BE ADDED-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="..." rel="stylesheet"> <!--TO BE ADDED-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+    <main class="container">
+        <div class="calendar"></div>
+        <div class="side-panel">
+            <label for="daily-limit">Daily Limit: </label>
+            <input type="number" id="daily-limit" min="0" step="0.01">
+            <p>Total Monthly Expenses: $<span id="total-amount">0</span></p>
+        </div>
+        </div>
 
-  <script src="script.js"></script>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
