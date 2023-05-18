@@ -1,4 +1,8 @@
 
+
+
+
+
 //Prevent negative integer input
 const min = 0;
 const dailyLimitInput = document.getElementById('daily-limit');
