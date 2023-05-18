@@ -12,3 +12,11 @@ COLOR: #9E4770
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
